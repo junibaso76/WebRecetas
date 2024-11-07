@@ -1,0 +1,208 @@
+[
+    {
+        "id": "1",
+        "nombre": "Tarta de Queso",
+        "categoria": "postres",
+        "descripcion": "Una tarta suave y deliciosa perfecta para cualquier ocasión.",
+        "imagen": "img/recetas/tarta_queso.jpg",
+        "ingredientes": [
+            "500g de queso crema",
+            "200g de azúcar",
+            "3 huevos",
+            "1 cucharada de vainilla"
+        ],
+        "pasos": [
+            "Precalentar el horno a 180°C.",
+            "Mezclar todos los ingredientes.",
+            "Hornear durante 45 minutos.",
+            "Dejar enfriar y servir."
+        ]
+    },
+    {
+        "id": "2",
+        "nombre": "Brownie de Chocolate",
+        "categoria": "postres",
+        "descripcion": "Un postre clásico para los amantes del chocolate.",
+        "imagen": "img/recetas/brownie_chocolate.jpg",
+        "ingredientes": [
+            "200g de chocolate negro",
+            "100g de mantequilla",
+            "3 huevos",
+            "150g de azúcar",
+            "80g de harina"
+        ],
+        "pasos": [
+            "Derretir el chocolate y la mantequilla juntos.",
+            "Batir los huevos y el azúcar.",
+            "Mezclar todo y agregar la harina.",
+            "Hornear durante 25 minutos."
+        ]
+    },
+    {
+        "id": "3",
+        "nombre": "Helado de Vainilla",
+        "categoria": "postres",
+        "descripcion": "Fresco y cremoso, ideal para el verano.",
+        "imagen": "img/recetas/helado_vainilla.jpg",
+        "ingredientes": [
+            "500ml de leche",
+            "250ml de nata",
+            "1 vaina de vainilla",
+            "150g de azúcar",
+            "4 yemas de huevo"
+        ],
+        "pasos": [
+            "Calentar la leche y la vainilla.",
+            "Batir las yemas con el azúcar.",
+            "Mezclar todo y dejar enfriar en el congelador."
+        ]
+    },
+    {
+        "id": "4",
+        "nombre": "Flan de Caramelo",
+        "categoria": "postres",
+        "descripcion": "Un postre clásico y delicioso.",
+        "imagen": "img/recetas/flan_caramelo.jpg",
+        "ingredientes": [
+            "500ml de leche",
+            "3 huevos",
+            "100g de azúcar",
+            "Caramelo líquido"
+        ],
+        "pasos": [
+            "Preparar el caramelo en un molde.",
+            "Batir los huevos, la leche y el azúcar.",
+            "Verter en el molde y hornear a baño maría."
+        ]
+    },
+    {
+        "id": "5",
+        "nombre": "Mousse de Fresa",
+        "categoria": "postres",
+        "descripcion": "Un postre ligero y afrutado.",
+        "imagen": "img/recetas/mousse_fresa.jpg",
+        "ingredientes": [
+            "200g de fresas",
+            "200ml de nata",
+            "100g de azúcar",
+            "2 hojas de gelatina"
+        ],
+        "pasos": [
+            "Triturar las fresas y mezclar con azúcar.",
+            "Añadir la nata montada y la gelatina.",
+            "Refrigerar durante al menos 2 horas."
+        ]
+    },
+    {
+        "id": "6",
+        "nombre": "Tiramisú",
+        "categoria": "postres",
+        "descripcion": "Postre italiano clásico.",
+        "imagen": "img/recetas/tiramisu.jpg",
+        "ingredientes": [
+            "200g de queso mascarpone",
+            "100g de azúcar",
+            "2 huevos",
+            "Café espresso",
+            "Bizcochos de soletilla",
+            "Cacao en polvo"
+        ],
+        "pasos": [
+            "Batir las yemas con azúcar y mezclar con mascarpone.",
+            "Empapar los bizcochos en café.",
+            "Montar en capas y espolvorear con cacao."
+        ]
+    },
+    {
+        "id": "7",
+        "nombre": "Pastel de Zanahoria",
+        "categoria": "postres",
+        "descripcion": "Un pastel saludable y delicioso.",
+        "imagen": "img/recetas/pastel_zanahoria.jpg",
+        "ingredientes": [
+            "250g de zanahorias",
+            "200g de azúcar",
+            "150g de harina",
+            "3 huevos",
+            "100g de nueces",
+            "1 cucharadita de canela"
+        ],
+        "pasos": [
+            "Rallar las zanahorias.",
+            "Mezclar todos los ingredientes.",
+            "Hornear durante 40 minutos."
+        ]
+    },
+    {
+        "id": "8",
+        "nombre": "Panna Cotta",
+        "categoria": "postres",
+        "descripcion": "Postre italiano suave y cremoso.",
+        "imagen": "img/recetas/panna_cotta.jpg",
+        "ingredientes": [
+            "500ml de nata",
+            "100g de azúcar",
+            "1 vaina de vainilla",
+            "Gelatina"
+        ],
+        "pasos": [
+            "Calentar la nata con azúcar y vainilla.",
+            "Añadir la gelatina y dejar enfriar en moldes."
+        ]
+    },
+    {
+        "id": "9",
+        "nombre": "Trufas de Chocolate",
+        "categoria": "postres",
+        "descripcion": "Bocados de chocolate intensos y deliciosos.",
+        "imagen": "img/recetas/trufas_chocolate.jpg",
+        "ingredientes": [
+            "200g de chocolate negro",
+            "100g de nata",
+            "Cacao en polvo"
+        ],
+        "pasos": [
+            "Derretir el chocolate con la nata.",
+            "Dejar enfriar y formar bolitas.",
+            "Rebozar en cacao."
+        ]
+    },
+    {
+        "id": "10",
+        "nombre": "Galletas de Avena",
+        "categoria": "postres",
+        "descripcion": "Galletas saludables y deliciosas.",
+        "imagen": "img/recetas/galletas_avena.jpg",
+        "ingredientes": [
+            "150g de avena",
+            "100g de azúcar moreno",
+            "100g de mantequilla",
+            "1 huevo",
+            "50g de pasas"
+        ],
+        "pasos": [
+            "Mezclar todos los ingredientes.",
+            "Formar bolitas y colocar en una bandeja.",
+            "Hornear durante 15 minutos."
+        ]
+    },
+    {
+        "id": "11",
+        "nombre": "Ensalada César",
+        "categoria": "entrantes",
+        "descripcion": "Una ensalada fresca y clásica.",
+        "imagen": "img/recetas/ensalada_cesar.jpg",
+        "ingredientes": [
+            "Lechuga romana",
+            "Pollo a la plancha",
+            "Queso parmesano",
+            "Crutones",
+            "Salsa César"
+        ],
+        "pasos": [
+            "Lavar la lechuga y cortar.",
+            "Añadir el pollo, queso y crutones.",
+            "Aliñar con salsa César."
+        ]
+    }
+]

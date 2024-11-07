@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5d5a7, #f09f92);
+    color: #333;
+}
+
+h1 {
+    font-weight: bold;
+    color: #6b3e26;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el texto MENÚ en el botón de hamburguesa */
+.navbar-toggler span.ml-2 {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+#recetas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para las tarjetas de receta */
+.receta-card {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative; /* Necesario para las imágenes laterales */
+    overflow: hidden;
+}
+.receta-card:hover {
+    transform: scale(1.02);
+}
+
+/* Ajuste del botón "Ver Detalles" */
+.receta-card .btn {
+    font-size: 0.85rem; /* Tamaño de letra más pequeño */
+    padding: 8px 12px; /* Mayor padding para un aspecto más cómodo */
+    border-radius: 5px;
+}
+
+.receta-card .side-image {
+    position: absolute;
+    width: 50px;
+    height: 100%; /* Altura completa */
+    top: 0;
+    transition: width 0.3s ease; /* Animación al expandir */
+    background-size: cover;
+    background-position: center;
+}
+
+.receta-card .side-image.left {
+    left: -50px; /* Oculta la mitad de la imagen cuando la tarjeta está cerrada */
+    background-image: url('../img/left-decoration.jpg'); /* Imagen izquierda */
+}
+
+.receta-card .side-image.right {
+    right: -50px; /* Oculta la mitad de la imagen cuando la tarjeta está cerrada */
+    background-image: url('../img/right-decoration.jpg'); /* Imagen derecha */
+}
+
+/* Expandir las imágenes al abrir la tarjeta */
+.receta-card.opened .side-image {
+    width: 100px;
+}
+
+/* Ajuste del botón "Ver Detalles" */
+.receta-card .btn {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
